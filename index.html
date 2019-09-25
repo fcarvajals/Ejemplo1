@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hoja de Vida</title>
-    
+    <link rel="stylesheet" href="/Estilos/style.css">
 </head>
-<body style="background-color:white">
+<body>
     <header>
-        <h1 style="color:orange; text-align: center;">Hoja de Vida</h1>
+        <h1 id="titulo">Hoja de Vida</h1>
         <hr>
     </header>
     <section>
-        <h2 style="text-align: center; font-style: italic;">Fernelly Carvajal Silva</h2>
-        <div style="text-align: center;">
+        <h2 id="nombre"><em>Fernelly Carvajal Silva</em></h2>
+        <div class="foto" style="text-align: center;">
             
-            <img src="/img/fcs.jpeg" alt="no aparece" style="width:150px;height:150px;">
+            <img id="foto" src="/img/fcs.jpeg" alt="no aparece">
         </div>
         <hr>
         <aside> 
-            <p>
-              Líder en la transformación y dinamización de las TIC en el centro de la Industria, la Empresa y
+            <p id="desc"> 
+              Líder en la transformación y dinamización de las <span>TIC</span> en el centro de la Industria, la Empresa y
               los Servicios de Neiva desde el año 2003 hasta la fecha. Entre los principales logros se destaca:
+            
             </p>
             <ul>
                     <li>Líder técnico de SENASoft Huila 2014</li>
@@ -38,8 +39,10 @@
     
    <footer>
        <br><br><br>
-       <p style="text-align: center;"><strong>e-mail:fcarvajals@sena.edu.co ¬ cel: 3158770942</strong></p>
-           
+      <p id="pie"><strong>e-mail:fcarvajals@sena.edu.co ¬ cel: 3158770942</strong></p>
+      <br>
+       <div style="text-align: center;"> <button type="button" onclick="location.href='https://validator.w3.org/#validate_by_upload';"><span id="valid">Validar HV</span></button> </div>
+             
    </footer>
 </body>
 </html>

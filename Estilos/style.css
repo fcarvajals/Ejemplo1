@@ -1,0 +1,58 @@
+
+body{
+
+    background-color:white;
+}
+#titulo{
+
+    color:whitesmoke; 
+    text-align: center; 
+    background-color:orangered;
+    border:10px;
+    border-style:outset;
+    margin-top:30px;
+}
+
+#nombre{
+    text-align: center; 
+    font-style: italic;
+}
+
+#foto{
+    width:150px;height:150px;
+    border-radius:100px;
+}
+
+#pie{
+    margin:auto;
+    text-align: center; 
+    background-color: grey;
+    color:whitesmoke;
+    border-radius: 100px;
+    width:50%;
+    height:50px;
+    padding:10px;
+    font-size:16px;
+}
+.foto{
+    text-align: center;
+}
+
+#desc{
+    margin:auto;
+    background-color: #BDCCE1;
+    border-radius:50px;
+    width:95%;
+    
+}
+#valid{
+    font-size: 15px;
+    
+}
+
+#columnaroja{
+    background-color: red;
+}
+.columnaverde{
+    background-color: green;
+}
